@@ -10,6 +10,7 @@ public class Carteira{
 
     public void depositar(double qtd){
         this.saldoBitcoin += qtd;
+        System.out.println("Depósito Feito!");
         System.out.println("Sucesso!");
     }
 }
